@@ -7,48 +7,84 @@
     tools:context=".a01layout.HomeActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
+        android:id="@+id/linearLayout31"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteY="166dp">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="@string/xml_layout"
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_Linea_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Linea Layout" />
+            android:text="Linea Layout"
+            android:textAllCaps="true" />
 
         <Button
             android:id="@+id/btn_Frame_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Frame Layout" />
+            android:text="Frame Layout"
+            android:textAllCaps="true" />
 
         <Button
-            android:id="@+id/btn_Relative_layout"
+            android:id="@+id/btn_Relative_layout1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Relative Layout" />
+            android:text="Relative Layout"
+            android:textAllCaps="true" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="ANIMATION"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_animation_loading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOADING"
+                android:textAllCaps="true"
+                tools:ignore="DuplicateIds" />
+
+            <Button
+                android:id="@+id/btn_animation_simpson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIMPSON"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout31"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/linearLayout3" android:layout_height="wrap_content">
+        app:layout_constraintStart_toEndOf="@+id/linearLayout31">
 
     </LinearLayout>
 
